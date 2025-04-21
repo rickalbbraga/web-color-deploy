@@ -47,6 +47,7 @@ spec:
     app: webcolor
   ports:
   - port: 80
-    nodePort: 8082
+    targetPort: 80
+    nodePort: 30082 
   type: NodePort
 
